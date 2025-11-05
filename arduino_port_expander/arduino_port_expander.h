@@ -112,8 +112,8 @@ class ArduinoPortExpander : public Component, public i2c::I2CDevice {
   std::vector<ApeSwitch *> switch_pins_;
   std::vector<ApeBinarySensor *> input_pins_;
 };
-}
-}
+
 
 }  // namespace arduino_port_expander
+}  // namespace component
 }  // namespace esphome
