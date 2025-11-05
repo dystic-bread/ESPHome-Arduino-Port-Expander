@@ -115,5 +115,5 @@ class ArduinoPortExpander : public Component, public i2c::I2CDevice {
 
 
 }  // namespace arduino_port_expander
-}  // namespace component
+}  // namespace components
 }  // namespace esphome
